@@ -273,3 +273,8 @@ $table->limit( 10, 20 )->get();
 // select * from wp_users limit 20, 10
 $table->page( 2, 10 )->get();
 ```
+
+### TODOs
+
+- [ ] Add joins
+- [ ] Add query cache system
